@@ -1,3 +1,6 @@
+<?php
+// Example file.
+?>
 <html>
 	<head>
 		<title></title>
@@ -16,7 +19,7 @@
 			 * @param {Function} callback This function will be called when the script will be loaded.
 			 * @param {boolean} forceCallback If true, call the function even if the script is already loaded. Default to false.
 			 */
-			 
+
 			function loadScript(url, callback, forceCallback) {
 			  if (!this.loadedScript) {
 				this.loadedScript = new Array();
@@ -52,4 +55,4 @@
 	</body>
 </html>
 
- 	  	 
+
